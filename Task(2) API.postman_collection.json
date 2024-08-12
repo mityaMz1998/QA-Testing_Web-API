@@ -1,0 +1,28 @@
+{
+	"info": {
+		"_postman_id": "673158b5-7c98-477e-9f92-31b0cc464972",
+		"name": "Task(2) API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "24417794"
+	},
+	"item": [
+		{
+			"name": "Post card",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"progCardId\": 12,\r\n   \"secretWord\":\"Мое кодовое слово\",\r\n   \"isVirtual\": true,\r\n   \"cardSign\":\"IVAN IVANOV\",\r\n   \"accNumber\": 42301810900000002345\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://127.0.0.1:8080/internetbank/rest/process/fl_request_open_card"
+			},
+			"response": []
+		}
+	]
+}
