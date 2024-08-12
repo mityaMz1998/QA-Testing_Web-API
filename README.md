@@ -18,6 +18,9 @@ After completing the task
 3.What other types of testing would you apply?
 4.What information did you lack to test this form in more detail?
 
+Link to the answers:
+https://docs.google.com/spreadsheets/d/1RsjBYBmc0QD9jTHwupAmtVfCWwr1F0FXL4zE3xV8cE/edit?usp=drive_link
+
 Task №2.
 Here is an example of a request error from Postman. This request is sent when an Online Banking user wants to issue a virtual card. Below you will find the documentation for the request. You need to determine what could have gone wrong.
 
